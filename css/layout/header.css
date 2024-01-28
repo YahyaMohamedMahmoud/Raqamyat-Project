@@ -1,0 +1,44 @@
+header{
+    padding: 15px 0;
+}
+header .collapse .navbar-nav .nav-item{
+    padding-inline-end: 20px;
+    color: rgba(101, 101, 101, 1);
+    font-size: 19px;  
+    position: relative;
+    font-family:Gotham-Light;
+}
+header .collapse .navbar-nav .nav-item::after{
+    content: "";
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 57%;
+    left: 85%;
+    background: rgba(0, 147, 222, 1) 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+}
+header .collapse .navbar-nav .nav-item:last-child::after{
+    display: none;
+}
+header .collapse .navbar-nav .active::after{
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-image: url(../background/Rectangle\ 16.svg);
+    top: 85%;
+    left: 37%;
+    position: absolute;
+
+}
+header .collapse .navbar-nav .active{
+    color: rgba(2, 122, 183, 1);
+    position: relative;
+    font-family:Gotham-Medium;
+}
+header .collapse .logo{
+    max-width: 128px; 
+    margin-top: 26px;
+}
+
+

@@ -1,0 +1,28 @@
+/* vendors style */
+@import url("vendors/all.css");
+@import url("vendors/animate.css");
+@import url("vendors/bootstrap.min.css");
+@import url("vendors/fontawesome.min.css");
+/* vendors style */
+
+/* component style */
+@import url("component/component.css");
+/* component style */
+
+/* layout style */
+@import url("layout/header.css");
+@import url("layout/footer.css");
+/* layout style */
+
+/* pages style */
+@import url("pages/home.css");
+/* pages style */
+
+
+/* responsive style */
+@import url("responsive/responsive.css");
+/* responsive style */
+
+/* base style */
+@import url("base/base.css");
+/* base style */

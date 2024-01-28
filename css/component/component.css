@@ -1,0 +1,39 @@
+/* btn in sec one (solu) style */
+.btn{
+    width: 149px;
+    height: 50px;   
+    background: transparent linear-gradient(252deg, rgba(0, 147, 222, 1) 0%, rgba(60, 111, 174, 1) 100%, rgba(239, 2, 32, 1) 100%) 0% 0% no-repeat padding-box;
+    color: white;
+    border-radius: 30px;
+    font-family:Gotham-Book;
+    text-transform: capitalize;
+    font-size: 19px;
+}
+.btn:hover{
+    color: white;
+}
+/* btn in sec one (solu) style */
+
+/* h2 in website style */
+h2{
+    font-size: 45px;
+    font-family:Gotham-Bold;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 1;
+}
+h2::after{
+    content: "";
+    width: 17%;
+    height: 20%;
+    background-image: url(../background/Line\ 4545.svg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    top: 84%;
+    right: 0;
+    left: 34%;
+    opacity: 1;
+    z-index: -1;
+}
+/* h2 in website style */

@@ -1,0 +1,1173 @@
+@media screen and (max-width:1024px){
+    header{
+        padding: 5px 0;
+    }
+    header .btn{
+        font-size: 18px;
+        height: 65%;
+    }
+    header .collapse .navbar-nav .nav-item{
+        padding-inline-end: 10px;
+        font-size: 15px;  
+    }
+    header .collapse{
+        padding-top: 20px;
+        padding-inline-start: 10px;
+        padding-bottom: 10px;
+    }
+    header .collapse .navbar-nav .nav-item::after{
+        top: 53%;
+        left: 87%;
+    }
+    /* header in responsive end */
+    
+    /* home page start */
+    .solu .solutext h1{
+        font-size: 40px;
+    }
+    .solu .solutext span:after{
+        width: 171px;
+        height: 100px;
+        top:-66% ;
+        left: -10px;
+    }
+    .solu .solutext .rev::after{
+        width: 164px;
+        height: 141px;
+        top: -40%;
+        left: 10%;
+    }
+    .solu .solutext2{
+        width:100%;
+        margin-top: 25px;
+        font-size: 18px;
+        text-transform: capitalize;
+    } 
+    .solu {
+        position: relative;
+    }
+    .solu .soluimg{
+        position: absolute;
+        top: 10%;
+     }
+     .btn2{
+        margin-top: 50px;
+    }
+    .photo {
+        background-color: #fff;
+        width: 46.5%;
+        padding-inline-start: 0px;
+        border-top-right-radius: 50px; 
+        margin-top: 100px;  
+    }
+    .photo .aboutimg {
+        background-color: #fff;
+        border-top-right-radius: 50px; 
+        padding: 10px 0;
+    }
+     .aboutimg :first-child{
+        margin-inline-start: 50px;
+    }
+     .aboutimg img{
+    max-width: 60px;
+    display: inline-block;
+    margin-inline-end: 5px;
+    }
+    .about {
+        width:90%;
+        border-radius: 0px 90px 90px 0px; 
+        padding-inline-start: 0px;
+        padding-bottom:10px;
+    }
+    .about .aboutphoto {
+       margin-inline-start: 0px;
+       margin-top: 30px;
+       margin-bottom: 30px;
+    }
+    .about .abouttext{
+        margin-top: 40px;
+    }
+    .about .abouttext p{
+        margin-top: 25px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h2::after{
+        width: 19%;
+        left: 38%;
+    }
+    .what .what2 .card{
+        width: 100%;
+        padding: 0 10px;
+        margin-inline-end: 10px;
+        margin-top: 20px;
+    }
+    .what .whattext2 p{
+        font-size: 16px;
+        margin-top: 5px;
+        padding-inline-start: 5px;
+    }
+    .what .whattext1 h2::after{
+        width: 31%;
+    }
+    .what .what2 .card::after{
+        top: 80%;
+    }
+    .what .what2 .card {
+        margin-top: 20px;
+    }
+    .what .what2 .card p{
+        font-size: 12px;
+    }
+    .our .ourtext h2{
+        padding-top: 47px;
+        margin-bottom: 20px;
+    }
+    .our2{
+        padding: 10px;
+    }
+    .our .ourtext h2::after{
+        width: 8%;
+        left: 52%;
+    }
+    .our .ourtext2{
+        padding-bottom: 40px;
+    }
+    .our .ourtext2 .carditem{
+        margin-bottom: 27px;
+    }
+    .our .ourtext2 .card2 .cardtext .btn{
+        font-size: 13px;
+        width: 150px;
+        height: 50px;
+        padding: 14px 0;
+    }
+    .our .ourtext2 .card2 .cardimg4 {
+        max-width: 57px;
+    } 
+    .our .ourtext2 .card2 .cardtext h4{
+    font-size: 14px;
+    margin-bottom: 6.5px;
+    }
+    .our .ourtext2 .card2 .cardtext p{
+        font-size: 12px;
+    }
+    .top {
+        padding-bottom: 20px;
+    }
+    .top .cardtop{
+        width: 100%;
+        height: 100%;
+    }
+    .top .toptext{
+        padding: 0 20px;
+    }
+    .top .toptext h2::after{
+        width: 8%;
+        left: 53%;
+    }
+    .top .toptext h2 {
+        margin-top: 20px;
+    }
+    .top .cardtop2{
+        margin-left: 5px;  
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .top .cardtop3{
+        margin-left: 5px;
+      position: relative;
+    }
+    .top .cardtop5{
+        margin-left: 5px;
+    }
+    .top .cardtop6{
+        margin-left: 5px;
+    }
+    .top .div{
+        text-align: center;
+    }
+    .top .cardtop .toptext .toptext2 .wael{
+        margin-top: 2px;
+        font-size: 12px;
+        color: #2A2A2A;
+        margin-bottom: 5px;
+        font-family:Gotham-Medium;
+    }
+    .top .cardtop .toptext .toptext2 .btn {
+        width: 149px;
+        height: 50px;
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .top .cardtop2::after{
+        opacity: 0;
+    }
+    .top .cardtop3::after{
+        opacity: 0;
+    }
+    /* home page in responsive end */
+    
+    /* footer in responsive start */
+    footer{
+        padding-top: 70px;
+    }
+    footer .sub{
+        width: 100%;
+        padding: 0px 0px;
+        margin-bottom: 70px;
+        margin-left: 0px;
+    }
+    footer .sub2{
+        margin-top: 0px;
+    }
+    footer .sub input{
+    width: 90%;
+    height: 40px;
+    padding: 26px 20px ;
+    margin-inline-start: 0px;
+    margin-top: 20px;
+    }
+    footer .sub .sub1 .btn3 {
+        width: 20%;
+        height: 11%;
+        position: absolute;
+        right: 0;
+        left: 70%;
+        margin-top: 20px;
+        display: block;
+    }
+    footer .sub .sub1 .subtext h6{
+        font-size: 15px;
+        padding: 10px 10px ;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    footer .sub .sub1{
+        width: 100%;
+        height: 140px;      
+        padding: 0px;
+    }
+    footer .raq .social img{
+        margin-top: 32px;
+        margin-bottom: 30px;
+    }
+    footer h2::after{
+        width: 15%;
+        left: 10%;
+    }
+    footer .ser::after{
+            width: 13%;
+            left: 9%;
+    }
+    footer .cont::after{
+            width: 20%;
+    }
+    footer .copy{
+        flex-direction: row;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-inline-start: 10px;
+    }
+    footer .copy p{
+        margin-bottom: 20px;
+    }
+    footer .copy a{
+        margin: 0 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width:992px){
+    header{
+        padding: 5px 0;
+    }
+    header .btn{
+        font-size: 18px;
+        height: 65%;
+    }
+    header .collapse .navbar-nav .nav-item{
+        padding-inline-end: 10px;
+        font-size: 15px;  
+    }
+    header .collapse{
+        padding-top: 20px;
+        padding-inline-start: 10px;
+        padding-bottom: 10px;
+    }
+    header .collapse .navbar-nav .nav-item::after{
+        top: 53%;
+        left: 87%;
+    }
+    /* header in responsive end */
+    
+    /* home page start */
+    .solu .solutext h1{
+        font-size: 40px;
+    }
+    .solu .solutext span:after{
+        width: 171px;
+        height: 100px;
+        top:-66% ;
+        left: -10px;
+    }
+    .solu .solutext .rev::after{
+        width: 164px;
+        height: 141px;
+        top: -40%;
+        left: 10%;
+    }
+    .solu .solutext2{
+        width:100%;
+        margin-top: 25px;
+        font-size: 18px;
+        text-transform: capitalize;
+    } 
+    .solu {
+        position: relative;
+    }
+    .solu .soluimg{
+        position: absolute;
+        top: 10%;
+     }
+     .btn2{
+        margin-top: 50px;
+    }
+    .photo {
+        background-color: #fff;
+        width: 46.5%;
+        padding-inline-start: 0px;
+        border-top-right-radius: 50px; 
+        margin-top: 100px;  
+    }
+    .photo .aboutimg {
+        background-color: #fff;
+        border-top-right-radius: 50px; 
+        padding: 10px 0;
+    }
+     .aboutimg :first-child{
+        margin-inline-start: 50px;
+    }
+     .aboutimg img{
+    max-width: 60px;
+    display: inline-block;
+    margin-inline-end: 5px;
+    }
+    .about {
+        width:90%;
+        border-radius: 0px 90px 90px 0px; 
+        padding-inline-start: 0px;
+        padding-bottom:10px;
+    }
+    .about .aboutphoto {
+       margin-inline-start: 0px;
+       margin-top: 30px;
+       margin-bottom: 30px;
+    }
+    .about .abouttext{
+        margin-top: 40px;
+    }
+    .about .abouttext p{
+        margin-top: 25px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h2::after{
+        width: 19%;
+        left: 38%;
+    }
+    .what .what2 .card{
+        width: 100%;
+        padding: 0 10px;
+        margin-inline-end: 10px;
+        margin-top: 20px;
+    }
+    .what .whattext2 p{
+        font-size: 16px;
+        margin-top: 5px;
+        padding-inline-start: 5px;
+    }
+    .what .whattext1 h2::after{
+        width: 31%;
+    }
+    .what .what2 .card::after{
+        top: 80%;
+    }
+    .what .what2 .card {
+        margin-top: 20px;
+    }
+    .what .what2 .card p{
+        font-size: 12px;
+    }
+    .our .ourtext h2{
+        padding-top: 47px;
+        margin-bottom: 20px;
+    }
+    .our2{
+        padding: 10px;
+    }
+    .our .ourtext h2::after{
+        width: 8%;
+        left: 52%;
+    }
+    .our .ourtext2{
+        padding-bottom: 40px;
+    }
+    .our .ourtext2 .carditem{
+        margin-bottom: 27px;
+    }
+    .our .ourtext2 .card2 .cardtext .btn{
+        font-size: 13px;
+        width: 150px;
+        height: 50px;
+        padding: 14px 0;
+    }
+    .our .ourtext2 .card2 .cardimg4 {
+        max-width: 57px;
+    } 
+    .our .ourtext2 .card2 .cardtext h4{
+    font-size: 14px;
+    margin-bottom: 6.5px;
+    }
+    .our .ourtext2 .card2 .cardtext p{
+        font-size: 12px;
+    }
+    .top {
+        padding-bottom: 20px;
+    }
+    .top .cardtop{
+        width: 100%;
+        height: 100%;
+    }
+    .top .toptext{
+        padding: 0 20px;
+    }
+    .top .toptext h2::after{
+        width: 8%;
+        left: 53%;
+    }
+    .top .toptext h2 {
+        margin-top: 20px;
+    }
+    .top .cardtop2{
+        margin-left: 5px;  
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .top .cardtop3{
+        margin-left: 5px;
+      position: relative;
+    }
+    .top .cardtop5{
+        margin-left: 5px;
+    }
+    .top .cardtop6{
+        margin-left: 5px;
+    }
+    .top .div{
+        text-align: center;
+    }
+    .top .cardtop .toptext .toptext2 .wael{
+        margin-top: 2px;
+        font-size: 12px;
+        color: #2A2A2A;
+        margin-bottom: 5px;
+        font-family:Gotham-Medium;
+    }
+    .top .cardtop .toptext .toptext2 .btn {
+        width: 149px;
+        height: 50px;
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .top .cardtop2::after{
+        opacity: 0;
+    }
+    .top .cardtop3::after{
+        opacity: 0;
+    }
+    /* home page in responsive end */
+    
+    /* footer in responsive start */
+    footer{
+        padding-top: 70px;
+    }
+    footer .sub{
+        width: 100%;
+        padding: 0px 0px;
+        margin-bottom: 70px;
+        margin-left: 0px;
+    }
+    footer .sub2{
+        margin-top: 0px;
+    }
+    footer .sub input{
+    width: 90%;
+    height: 40px;
+    padding: 26px 20px ;
+    margin-inline-start: 0px;
+    margin-top: 20px;
+    }
+    footer .sub .sub1 .btn3 {
+        width: 20%;
+        height: 11%;
+        position: absolute;
+        right: 0;
+        left: 70%;
+        margin-top: 20px;
+        display: block;
+    }
+    footer .sub .sub1 .subtext h6{
+        font-size: 15px;
+        padding: 10px 10px ;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    footer .sub .sub1{
+        width: 100%;
+        height: 140px;      
+        padding: 0px;
+    }
+    footer .raq .social img{
+        margin-top: 32px;
+        margin-bottom: 30px;
+    }
+    footer h2::after{
+        width: 15%;
+        left: 10%;
+    }
+    footer .ser::after{
+            width: 13%;
+            left: 9%;
+    }
+    footer .cont::after{
+            width: 20%;
+    }
+    footer .copy{
+        flex-direction: row;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-inline-start: 10px;
+    }
+    footer .copy p{
+        margin-bottom: 20px;
+    }
+    footer .copy a{
+        margin: 0 15px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width:768px){
+    header{
+        padding: 15px 0;
+    }
+    header .btn{
+        margin-top: 0px;
+    }
+    header .collapse .logo{
+        margin-top: 0px;
+    }
+    header .collapse{
+        background-color: #fff;
+        padding-top: 20px;
+        padding-inline-start: 10px;
+        padding-bottom: 10px;
+    }
+    header .collapse .navbar-nav .nav-item::after{
+        display: none;
+    }
+    header .collapse .navbar-nav .active::after{
+        display: none;
+    }
+    /* header in responsive end */
+    
+    /* home page start */
+    .solu .solutext h1{
+        font-size: 40px;
+    }
+    .solu .solutext span:after{
+        width: 171px;
+        height: 100px;
+        top:-66% ;
+        left: -10px;
+    }
+    .solu .solutext .rev::after{
+        width: 164px;
+        height: 141px;
+        top: -40%;
+        left: 10%;
+    }
+    .solu .solutext2{
+        width:100%;
+        margin-top: 25px;
+        font-size: 18px;
+        text-transform: capitalize;
+    } 
+    .solu {
+        position: relative;
+    }
+    .solu .soluimg{
+        position: absolute;
+        top: 0;
+        /* display: none; */
+     }
+     .btn2{
+        margin-top: 20px;
+    }
+    .photo {
+        background-color: #fff;
+        width: 56.5%;
+        padding-inline-start: 0px;
+        border-top-right-radius: 50px; 
+        margin-top: 100px;  
+    }
+    .photo .aboutimg {
+        background-color: #fff;
+        border-top-right-radius: 50px; 
+        padding: 10px 0;
+    }
+     .aboutimg :first-child{
+        margin-inline-start: 50px;
+    }
+     .aboutimg img{
+    max-width: 60px;
+    display: inline-block;
+    margin-inline-end: 5px;
+    }
+    .about {
+        width:100%;
+        padding-inline-start: 0px;
+        padding-bottom:10px;
+        border-radius: 0px; 
+    }
+    .about .aboutphoto {
+       margin-inline-start: 0px;
+       margin-top: 30px;
+       margin-bottom: 30px;
+    }
+    .about .abouttext{
+        margin-top: 40px;
+    }
+    .about .abouttext p{
+        margin-top: 25px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h2::after{
+        width: 24%;
+        left: 49%;
+    }
+    .what .what2 .card{
+        width: 100%;
+        padding: 0 10px;
+        margin-inline-end: 10px;
+        margin-top: 20px;
+    }
+    .what .whattext2 p{
+        font-size: 16px;
+        margin-top: 5px;
+        padding-inline-start: 5px;
+    }
+    .what .whattext1 h2::after{
+        width: 36%;
+    }
+    .what .what2 .card::after{
+        top: 80%;
+    }
+    .what .what2 .card {
+        margin-top: 20px;
+    }
+    .what .what2 .card p{
+        font-size: 12px;
+    }
+    .our .ourtext h2{
+        padding-top: 47px;
+        margin-bottom: 20px;
+    }
+    .our2{
+        padding: 10px;
+    }
+    .our .ourtext h2::after{
+        width: 11%;
+        left: 52%;
+    }
+    .our .ourtext2{
+        padding-bottom: 40px;
+    }
+    .our .ourtext2 .carditem{
+        margin-bottom: 27px;
+    }
+    .our .ourtext2 .card2 .cardtext .btn{
+        font-size: 13px;
+        width: 150px;
+        height: 50px;
+        padding: 14px 0;
+    }
+    .our .ourtext2 .card2 .cardimg4 {
+        max-width: 57px;
+    } 
+    .our .ourtext2 .card2 .cardtext h4{
+    font-size: 14px;
+    margin-bottom: 6.5px;
+    }
+    .our .ourtext2 .card2 .cardtext p{
+        font-size: 12px;
+    }
+    .top {
+        padding-bottom: 20px;
+    }
+    .top .cardtop{
+        width: 100%;
+        height: 100%;
+    }
+    .top .toptext{
+        padding: 0 20px;
+    }
+    .top .toptext h2::after{
+        width: 12%;
+        left: 53%;
+    }
+    .top .toptext h2 {
+        margin-top: 20px;
+    }
+    .top .cardtop2{
+        margin-left: 5px;  
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .top .cardtop3{
+        margin-left: 5px;
+      position: relative;
+    }
+    .top .cardtop5{
+        margin-left: 5px;
+    }
+    .top .cardtop6{
+        margin-left: 5px;
+    }
+    .top .div{
+        text-align: center;
+    }
+    .top .cardtop .toptext .toptext2 .wael{
+        margin-top: 2px;
+        font-size: 12px;
+        color: #2A2A2A;
+        margin-bottom: 5px;
+        font-family:Gotham-Medium;
+    }
+    .top .cardtop .toptext .toptext2 .btn {
+        width: 149px;
+        height: 50px;
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .top .cardtop2::after{
+        opacity: 0;
+    }
+    .top .cardtop3::after{
+        opacity: 0;
+    }
+    /* home page in responsive end */
+    
+    /* footer in responsive start */
+    footer{
+        padding-top: 70px;
+    }
+    footer .sub{
+        width: 100%;
+        padding: 0px 0px;
+        margin-bottom: 70px;
+        margin-left: 0px;
+    }
+    footer .sub2{
+        margin-top: 0px;
+    }
+    footer .sub input{
+    width: 90%;
+    height: 40px;
+    padding: 26px 20px ;
+    margin-inline-start: 0px;
+    }
+    footer .sub .sub1 .btn3 {
+        width: 20%;
+        height: 11%;
+        position: absolute;
+        right: 0;
+        left: 68%;
+        margin-top: 1px;
+        display: block;
+    }
+    footer .sub .sub1 .subtext h6{
+        font-size: 15px;
+        padding: 10px 10px ;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    footer .sub .sub1{
+        width: 100%;
+        height: 140px;      
+        padding: 0px;
+    }
+    footer .raq .social img{
+        margin-top: 32px;
+        margin-bottom: 30px;
+    }
+    footer h2::after{
+        width: 15%;
+        left: 10%;
+    }
+    footer .ser::after{
+            width: 13%;
+            left: 9%;
+    }
+    footer .cont::after{
+            width: 20%;
+    }
+    footer .copy{
+        flex-direction: row;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-inline-start: 10px;
+    }
+    footer .copy p{
+        margin-bottom: 20px;
+    }
+    footer .copy a{
+        margin: 0 15px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width:600px){
+    header{
+    padding: 15px 0;
+}
+header .btn{
+    margin-top: 0px;
+}
+header .collapse .logo{
+    margin-top: 0px;
+}
+header .collapse{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-inline-start: 10px;
+    padding-bottom: 10px;
+}
+header .collapse .navbar-nav .nav-item::after{
+    display: none;
+}
+header .collapse .navbar-nav .active::after{
+    display: none;
+}
+/* header in responsive end */
+
+/* home page start */
+.solu .solutext h1{
+    font-size: 40px;
+}
+.solu .solutext span:after{
+    width: 171px;
+    height: 100px;
+    top:-66% ;
+    left: -10px;
+}
+.solu .solutext .rev::after{
+    width: 164px;
+    height: 141px;
+    top: -40%;
+    left: 10%;
+}
+.solu .solutext2{
+    width:100%;
+    margin-top: 25px;
+    font-size: 18px;
+    text-transform: capitalize;
+} 
+.solu {
+    position: relative;
+}
+.solu .soluimg{
+    display: none;
+ }
+ .btn2{
+    margin-top: 20px;
+}
+.photo {
+    background-color: #fff;
+    width: 100%;
+    padding-inline-start: 0px;
+    border-top-right-radius: 50px; 
+    margin-top: 100px;  
+}
+.photo .aboutimg {
+    background-color: #fff;
+    border-top-right-radius: 50px; 
+    padding: 10px 0;
+}
+ .aboutimg :first-child{
+    margin-inline-start: 10px;
+}
+ .aboutimg img{
+max-width: 40px;
+display: inline-block;
+margin-inline-end: 5px;
+}
+.about {
+    width:100%;
+    padding-inline-start: 0px;
+    padding-bottom:10px;
+    border-radius: 0px; 
+}
+.about .aboutphoto {
+   margin-inline-start: 5px;
+}
+.about .abouttext{
+    margin-top: 40px;
+}
+.about .abouttext p{
+    margin-top: 45px;
+    font-size: 15px;
+    color: #2A2A2A;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 35px;
+}
+h2::after{
+    width: 27%;
+    left: 54%;
+}
+.what .what2 .card{
+    width: 100%;
+    position: relative;
+    background: transparent linear-gradient(311deg, #FFFFFF 0%, #EFFAFF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: -10px 10px 50px #0093DE1A;
+    border-radius: 50px 25px;
+    padding: 0 10px;
+    margin-inline-end: 0px;
+    border: none;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.what .whattext2 p{
+    font-size: 16px;
+    margin-top: 20px;
+    padding-inline-start: 5px;
+}
+.what .what2 .card::after{
+    top: 72%;
+}
+.what .what2 .card {
+    margin-top: 20px;
+}
+.our .ourtext h2{
+    padding-top: 47px;
+    margin-bottom: 20px;
+}
+.our2{
+    padding: 10px;
+}
+.our .ourtext h2::after{
+    width: 30%;
+    left: 53%;
+}
+.our .ourtext2{
+    padding-bottom: 40px;
+}
+.our .ourtext2 .carditem{
+    margin-bottom: 27px;
+}
+.top {
+    padding-bottom: 20px;
+}
+.top .cardtop{
+    width: 100%;
+    height: 100%;
+}
+.top .toptext{
+    padding: 0 20px;
+}
+.top .toptext h2::after{
+    width: 35%;
+    left: 58%;
+}
+.top .toptext h2 {
+    margin-top: 20px;
+}
+.top .cardtop2{
+    margin-left: 5px;  
+    margin-bottom: 10px;
+    position: relative;
+}
+.top .cardtop3{
+    margin-left: 5px;
+  position: relative;
+}
+.top .cardtop5{
+    margin-left: 5px;
+}
+.top .cardtop6{
+    margin-left: 5px;
+}
+.top .div{
+    text-align: center;
+}
+.top .cardtop .toptext .toptext2 .wael{
+    margin-top: 2px;
+    font-size: 12px;
+    color: #2A2A2A;
+    margin-bottom: 5px;
+    font-family:Gotham-Medium;
+}
+.top .cardtop .toptext .toptext2 .btn {
+    width: 149px;
+    height: 50px;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.top .cardtop2::after{
+    opacity: 0;
+}
+.top .cardtop3::after{
+    opacity: 0;
+}
+/* home page in responsive end */
+
+/* footer in responsive start */
+footer{
+    padding-top: 70px;
+}
+footer .sub{
+    width: 320px;
+    padding: 0px 0px;
+    margin-bottom: 70px;
+    margin-left: 0px;
+}
+footer .sub2{
+    margin-top: 0px;
+}
+footer .sub input{
+width: 100%;
+height: 20px;
+padding: 22px 20px ;
+margin-inline-start: 0px;
+}
+footer .sub .sub1 .btn3 {
+    width: 90%;
+    height: 12%;
+    position: absolute;
+    right: 0;
+    left: 9%;
+    margin-top: 120px;
+    display: block;
+}
+footer .sub .sub1 .subtext h6{
+    font-size: 15px;
+    padding: 10px 0 ;
+    margin-bottom: 20px;
+}
+footer .sub .sub1{
+    width: 100%;
+    height: 180px;      
+    padding: 0px;
+}
+footer .raq .social img{
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
+footer h2::after{
+    width: 19%;
+    left: 10%;
+}
+footer .ser::after{
+        width: 16%;
+        left: 9%;
+}
+footer .cont::after{
+        width: 24%;
+}
+footer .copy{
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-inline-start: 10px;
+}
+footer .copy p{
+    margin-bottom: 20px;
+}
+footer .copy a{
+    margin: 0 45px;
+}
+
+
+
+
+
+
+
+
+}

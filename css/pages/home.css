@@ -1,0 +1,403 @@
+header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 11;
+}
+.solu{
+    height: 120vh;
+    background-image: url(../background/\(lines\).svg);
+    background-position: 50% -50% ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -1;
+    position: relative; 
+  
+}
+.solu .overlay img {
+    position: absolute;
+    bottom: 75%;
+    left: -56%;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    transform: rotate(228deg);
+
+}
+.solu .solutext{
+    margin-top: 80px;
+
+}
+.solu .solutext h1{
+    font-size: 75px;
+    font-family:Gotham-Black ;
+    color: rgba(0, 0, 0, 1);
+}
+.solu .solutext span{
+color: rgba(0, 147, 222, 1); 
+position: relative;
+}
+.solu .solutext span:after{
+    content: "";
+    width: 321px;
+    height: 179px;
+    position: absolute;
+    top:-66% ;
+    left: -21px;
+    opacity: 1;
+    background-image: url(../background/circle\ note@2x.png);
+    background-position: center;
+    background-size: cover;
+}
+.solu .solutext .rev::after{
+    background-image: url(../background/line.svg);
+    width: 264px;
+    height: 181px;
+    top: -3px;
+    left: 15%;
+}
+.solu .soluimg{
+   margin-top: 80px;
+}
+.solu .solutext2{
+    width: 51%;
+    margin-top: 25px;
+    font-size: 18px;
+    text-transform: capitalize;
+} 
+.solu .solutext2 span{
+    font-size: 18px;
+    color: #0093DE;
+}
+.solu .solutext2 p{
+    color: #6D6D6D; 
+}
+.btn2{
+    width: 199px;
+    height: 60px;
+    box-shadow: 10px 10px 35px #0093DE80;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.btn2 img{
+  display: inline-block;
+  max-width: 25px;
+  margin-inline-start: 10px;  
+}
+/* solu sec style end */
+
+/* photo sec style start */
+.photo {
+    background-color: #fff;
+    width: 40.6%;
+    padding-inline-start: 80px;
+    border-top-right-radius: 50px; 
+    margin-top: 80px;  
+}
+.photo .aboutimg {
+    background-color: #fff;
+    border-top-right-radius: 50px; 
+    padding: 35px 0;
+}
+ .aboutimg :first-child{
+    margin-inline-start: 30px;
+}
+ .aboutimg img{
+max-width: 53px;
+display: inline-block;
+margin-inline-end: 35px;
+}
+/* photo sec style end */
+
+/* about sec style start */
+.about {
+    width:90%;
+    background-color: #fff;
+    border-radius: 0px 90px 90px 0px; 
+    padding-inline-start: 90px;
+    padding-bottom:80px;
+}
+.about .aboutphoto {
+   margin-inline-start: 20px;
+}
+.about .aboutphoto p{
+margin-top: 25px;
+text-transform: capitalize;
+font-size: 14px;
+color: #2A2A2A;
+font-family:Gotham-BookItalic;
+}
+.about .abouttext{
+    margin-top: 80px;
+}
+.about .abouttext p{
+    margin-top: 45px;
+    font-family:Gotham-Book;
+    font-size: 20px;
+    color: #2A2A2A;
+    margin-bottom: 30px;
+    letter-spacing: 0px;
+}
+/* about sec style end */
+
+/* what section style start  */
+
+.what {
+    margin-top:170px;
+    margin-bottom: 170px;
+}
+.what .whattext1 h2::after{
+    width: 26%;
+    top: 77%;
+    left: 28%;
+}
+.what .whattext2 p{
+font-size: 16px;
+color: #2A2A2A;
+font-family:Gotham-Medium;
+padding-inline-start: 120px;
+}
+.what .what2{
+    padding-top: 41px;
+}
+.what .what2 .card{
+    width: 362px;
+    height: 328px;
+    position: relative;
+    background: transparent linear-gradient(311deg, #FFFFFF 0%, #EFFAFF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: -10px 10px 50px #0093DE1A;
+    border-radius: 50px 25px;
+    padding: 0 30px;
+    margin-inline-end: 17px;
+    border: none;
+    overflow: hidden;
+}
+.what .what2 .cardimg img{
+    max-width: 57px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.what .what2 .cardimg .imgitem{
+    max-width: 48px;
+}
+.what .what2 .cardimg .imgitem2{
+    max-width: 25px;
+}
+.what .what2 .card::after{
+    content: "";
+    width: 100%;
+    height: 79vh;
+    background-image: url(../background/Group\ 210.svg);
+    background-position: 62% 51%;
+    position: absolute;
+    top: 52%;
+    transform: rotate(355deg);
+}
+.what .what2 .card h3{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #0093DE;
+    font-family:Gotham-Bold;
+}
+.what .what2 .card p{
+    font-size: 14px;
+    font-family:Gotham-Medium;
+    color: #2A2A2A;
+    margin-bottom: 77px;
+}
+/* what section style end  */
+
+/* our section style start  */
+.our{
+    background-color: #fff;
+}
+.our2::after{
+    content: "";
+    width: 100%;
+    height: 493px;
+    position: absolute;
+    inset: 0;
+    background-image: url(../background/shapes.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.our2{
+    padding: 21px 174.29px 21.14px 174px;
+    position: relative;
+    overflow: hidden;
+}
+.our .ourtext{
+    text-align: center;
+    padding: 21px 0;
+}
+.our .ourtext h2{
+    padding-top: 67px;
+}
+.our .ourtext h2::after{
+width: 11.6%;
+height: 22%;
+top: 79%;
+left: 50.9%;
+}
+.our .ourtext2 .card2 {
+    text-align: center;
+    background: transparent linear-gradient(304deg, #FFFFFF 0%, #EFFAFF 100%) 0% 0% no-repeat padding-box;
+box-shadow: -10px 10px 50px #0093DE1A;
+border-radius: 50px 25px;
+}
+.our .ourtext2 .card1{
+    padding: 29.75px 38.77px 24.75px 37.5px;
+}
+.our .ourtext2 .carditem{
+    padding: 34.75px 35px 19.75px 35px;
+    margin-top: 55px;
+    margin-bottom: 87px;
+}
+.our .ourtext2 .carditem2{
+    padding: 29.75px 38.27px 24.75px 38px;
+}
+.our .ourtext2 .card2 .cardimg {
+    max-width: 56px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.our .ourtext2 .card2 .cardimg3 {
+    max-width: 66px;
+} 
+.our .ourtext2 .card2 .cardimg4 {
+    max-width: 67px;
+} 
+.our .ourtext2 .card2 .cardtext h4{
+font-size: 16px;
+color: #2A2A2A;
+font-family:Gotham-Medium;
+margin-bottom: 6.5px;
+}
+.our .ourtext2 .card2 .cardtext p{
+    font-size: 14px;
+    font-family:Gotham-Medium;
+    color: #A2A2A2;
+    margin-bottom: 20px;
+}
+.our .ourtext2 .card2 .cardtext .btn{
+    font-size: 18px;
+    width: 209px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+/* our sec style end */
+
+/* top sec style start */
+.top {
+    padding-bottom: 170px;
+}
+.top .toptext h2{
+    text-align: center;
+}
+.top .toptext h2::after{
+    width: 7.6%;
+    height: 36%;
+    top: 51%;
+    left: 52%;
+}
+.top .toptext h2 {
+    margin-top: 170px;
+    margin-bottom: 55px;
+}
+.top .cardtop {
+    background-color: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 55px;
+}
+.top .toptext{
+    margin-top: 31px;
+    padding: 0 40px;
+}
+.top .cardtop .toptext span{
+    font-size: 12px;
+    padding-top: 31px;
+    color: #A2A2A2;
+    font-family:Gotham-Book;
+}
+.top .cardtop .toptext h4{
+    margin: 10px 0;
+    font-size: 24px;
+    color: #2A2A2A;
+    line-height: 24px;
+}
+.top .cardtop .toptext p{
+    font-size: 14px;
+    color: #A2A2A2;
+    font-family:Gotham-Book;
+    line-height: 14px;
+    margin-bottom: 20px;
+}
+.top .cardtop .toptext .toptext2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .cardtop .toptext .toptext2 .wael{
+    margin-top: 2px;
+    font-size: 12px;
+    color: #2A2A2A;
+    margin-bottom: 32px;
+    font-family:Gotham-Medium;
+}
+.top .cardtop .toptext .toptext2 .btn {
+    width: 149px;
+    height: 50px;
+    font-size: 14px;
+    background:  transparent;
+    box-shadow: none;
+    color: #027AB7;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+.top .cardtop2{
+  margin-left: -250px;  
+  position: relative;
+}
+.top .cardtop2::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff63;
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+}
+.top .cardtop3{
+    margin-left: 130px;
+  position: relative;
+
+}
+.top .cardtop3::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff63;
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+}
+.top .cardtop{
+    width: 474px;
+    height: 550px;
+}
+.top .cardtop5{
+margin-left: -130px;
+}
+.top {
+    margin-bottom: 170px;
+}
+.top .div{
+    text-align: center;
+}
+/* top sec style end */
